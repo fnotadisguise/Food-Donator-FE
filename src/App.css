@@ -1,0 +1,48 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.primaryBtn {
+  background-color: #76b39d;
+  color: #ffffff;
+  font-weight: 600;
+}
+.primaryBtn:hover {
+  background-color: #76b39db6;
+}
+
+.primary {
+  color: #76b39d;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+#myTab {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#myTab .nav-item .nav-link {
+  color: #121519;
+}
+#myTab .nav-item .nav-link.active {
+  border-radius: 0;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #76b39d;
+}
+#myTab .nav-item .nav-link.active:hover ~ .nav-tabs .nav-link {
+  border-radius: 0;
+}
+.authContainer {
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .authContainer {
+    width: 100%;
+  }
+}
+#map {
+  height: 500px;
+  width: 100%;
+}
